@@ -1,6 +1,6 @@
 import React from "react";
 import Btn from "../PageElements/Button"
-import { classes } from '@material-ui/core';
+//import { classes } from '@material-ui/core';
 
 
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
       <h1>Not your average bootcamp graduate</h1>
       <button type="button">View My Work</button>
       <Btn />
-      <div className={classes.root}>{"This div's text looks like that of a button."}</div>
+      {/* <div className={classes.root}>{"This div's text looks like that of a button."}</div> */}
     </div>
   );
 }
