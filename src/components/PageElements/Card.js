@@ -9,19 +9,17 @@ function Card(props) {
         <div className="content">
           <ul>
             <li>
-              <strong>Project Title:</strong> {props.name}
+              <strong>Project Title:</strong> {props.Title}
             </li>
             <li>
-              <strong>Scoope:</strong> {props.occupation}
+              <strong>Scoope:</strong> {props.Scope}
             </li>
             <li>
-              <strong>Location:</strong> {props.location}
+              <strong src={props.url}>Link:</strong> {props.url}
             </li>
           </ul>
         </div>
-        <span onClick={() => props.removeFriend(props.id)} className="remove">
-          𝘅
-        </span>
+
       </div>
     )
   };
