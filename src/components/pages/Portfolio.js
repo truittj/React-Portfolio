@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import projects from "../../projects.json";
+import projects from "../../data";
 import PortCard from "../PageElements/PortCard/PortCard";
 import Wrapper from "../Wrapper"
 //import Btn from "../PageElements/Button"

@@ -5,8 +5,8 @@ function PortCard(props) {
   return (
       <div className="card">
         <div className="img-container card-img-top">
-          <img alt={props.title} src={props.image} />
-          <img alt={props.title} src={props.image2} />
+          <img alt={props.title} id= "image1" src={props.image} />
+          <img alt={props.title} id= "image2" src={props.image2} />
 
         </div>
         <div className="content">

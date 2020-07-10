@@ -3,12 +3,12 @@ import React from "react";
 function Learn() {
   return (
     <div>
-      <h1 className="text-center">More Contact Information</h1>
-      <p>
-        Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no
-        mutat ludus aperiri mea, per in choro dolorem electram. Invidunt reprimique assueverit quo
-        ne, eruditi graecis pro ut. Usu ut diceret scaevola evertitur, appareat voluptatibus ad vel.
-      </p>
+      <h1 className="text-center">Other Places You Can Reach Me</h1>
+      
+        <img href="https://www.linkedin.com/in/joel-truitt-19312a62/" alt="linkedIn Logo" src="../../img/linkedin.png"></img>
+        <img href="https://github.com/truittj" alt="GitHub Logo" src="../../img/github.png"></img>
+        <img alt="resume" src="../../img/resume.png"></img>
+
     </div>
   );
 }

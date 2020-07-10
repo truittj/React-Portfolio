@@ -9,10 +9,10 @@ function Contact(props) {
       <Form />
     
       <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
-        Learn More
+        Other places to reach me
       </Link>{" "}
       <Link to="/contact" role="button" className="btn btn-link">
-        Learn Less
+        See Less
       </Link>
       <Route exact path={`${props.match.url}/learn`} component={Learn} />
     </div>

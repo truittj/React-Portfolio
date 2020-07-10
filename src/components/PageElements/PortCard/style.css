@@ -8,3 +8,14 @@
     text-align: left;
     padding: 5px;
 }
+
+#image1 {
+    /* position: absolute; */
+    width: 100%
+}
+#image2 {
+    /* position: relative; */
+    width: 50%;
+    /* left: 58%;
+    bottom: -17px; */
+}
