@@ -1,3 +1,25 @@
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+![Badge](https://img.shields.io/badge/ReadMe-undefined-undefined)
+# React_Portfolio
+
+## Description
+
+My first attempt at a React.js portfolio. 
+
+## Current Version 
+
+1.0
+
+## Table of Contents
+
+    * Installation
+    * Usage
+    * License
+    * Contributing
+    * User GitHub profile picture
+    * User GitHub email
+                
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -67,3 +89,27 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # React-Portfolio
+
+
+
+## Usage
+
+
+
+## License
+
+Public domain  
+
+## Contributing
+
+
+
+##Questions
+undefined
+
+## Contact Information
+
+<img src="https://avatars1.githubusercontent.com/u/63681296?v=4" alt="gitHub Avatar" width="25%">
+https://github.com/truittj
+
+
