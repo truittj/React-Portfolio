@@ -9,7 +9,6 @@ function Home() {
       <h1>Not your average bootcamp graduate</h1>
       <button type="button">View My Work</button>
       <Btn />
-      <Btn />
       {/* <div className={classes.root}>{"This div's text looks like that of a button."}</div> */}
     </div>
   );

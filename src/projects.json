@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Fitness_Tracker",
-    "image": "./img/fitness.png",
+    "image": "../img/fitness.png",
     "image2": "./img/fitness2.png",
     "scope": "This Fitness Application will track the user's exercise and the assoicated data in a Mongo database. It will populates with a seed file and can track the user over a period of time.",
     "url": "https://boiling-harbor-58994.herokuapp.com/",
