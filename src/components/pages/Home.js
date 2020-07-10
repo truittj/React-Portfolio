@@ -7,10 +7,7 @@ function Home() {
   return (
     <div>
       <h1>Not your average bootcamp graduate</h1>
-      <button type="button">View My Work</button>
-      <Btn />
-      <Btn />
-      {/* <div className={classes.root}>{"This div's text looks like that of a button."}</div> */}
+      <a class="btn btn-primary" href="/portfolio" role="button">Checkout my work</a>      {/* <div className={classes.root}>{"This div's text looks like that of a button."}</div> */}
     </div>
   );
 }

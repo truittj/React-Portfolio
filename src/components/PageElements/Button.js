@@ -4,7 +4,7 @@ import 'fontsource-roboto';
 
 function Btn () {
   
-    return <Button variant="contained" color="primary">Learn More</Button>;
+return <Button variant="contained" color="primary">Submit</Button>;
 }
 
 export default Btn;
