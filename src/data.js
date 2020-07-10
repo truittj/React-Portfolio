@@ -1,4 +1,3 @@
-import React from "react";
 import fitness from "./img/fitness.png";
 import fitness2 from "./img/Fitness2.png";
 import node from "./img/node.png";

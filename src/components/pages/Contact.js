@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
-import Learn from "./Learn";
+import Learn from "./Learn/Learn";
 import Form from "../PageElements/FormMultiline"
 
 function Contact(props) {

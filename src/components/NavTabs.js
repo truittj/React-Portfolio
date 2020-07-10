@@ -43,6 +43,14 @@ function NavTabs() {
         >
           Social Media Links
         </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/resume"
+            className={location.pathname === "/resume" ? "nav-link active" : "nav-link"}
+          >
+            Resume
+          </Link>
       </li>
     </ul>
   );
