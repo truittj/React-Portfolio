@@ -1,0 +1,21 @@
+.card {
+    background: #fff;
+    border-radius: 2px;
+    margin: 1rem;
+    position: relative;
+    width: 325px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    text-align: left;
+    padding: 5px;
+}
+
+#image1 {
+    /* position: absolute; */
+    width: 100%
+}
+#image2 {
+    /* position: relative; */
+    width: 50%;
+    /* left: 58%;
+    bottom: -17px; */
+}
