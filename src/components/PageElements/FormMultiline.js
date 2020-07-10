@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
+import Btn from "./Button"
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -20,9 +21,8 @@ export default function MultilineTextFields() {
   };
 
   return (
-    <form className={classes.root} noValidate autoComplete="off">
-      
     <div>
+        <form className={classes.root} noValidate autoComplete="off">
         <h4>Name:</h4>
         <TextField
             id="filled-full-width"
@@ -60,7 +60,8 @@ export default function MultilineTextFields() {
             defaultValue=""
             variant="filled"
         />
+        <Btn />
+        </form>
       </div>
-    </form>
   );
 }

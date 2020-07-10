@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import projects from "../../projects.json";
-import Card from "../PageElements/Card";
+import PortCard from "../PageElements/PortCard/PortCard";
 import Wrapper from "../Wrapper"
 //import Btn from "../PageElements/Button"
 
@@ -13,9 +13,13 @@ class Portfolio extends Component {
     return (
  
       <Wrapper>
-        <h1>Portfolio Page</h1>
+        <div className="row">
+          <div className="col-12">
+            <h1>Portfolio Page</h1>
+          </div>
+          <div className="row justify-content-around">
           {this.state.projects.map(project => (
-            <Card
+            <PortCard
             id={project.id}
             key={project.id}
             title={project.title}
@@ -26,6 +30,8 @@ class Portfolio extends Component {
             github={project.github}
             />
             ))}
+            </div>
+        </div>
       </Wrapper>
     );
   }
